@@ -1,0 +1,59 @@
+.fas{
+  font-size: 80px;
+  margin-left: 50%;
+  margin-top: 2%;
+}
+p{
+  margin-left: 40%;
+  margin-top: 1%;
+  font-size: 40px;
+}
+
+@media (min-width: 250px) and (max-width: 463px) {
+  /* Los estilos aquí contenidos solo se aplicarán a partir
+  del tamaño de pantalla indicado */
+  p{
+    margin-left: 30%;
+  }
+  .fas{
+    margin-left: 40%;
+  }
+
+}
+
+@media (min-width: 463px) and (max-width: 563px) {
+  /* Los estilos aquí contenidos solo se aplicarán a partir
+  del tamaño de pantalla indicado */
+  p{
+    margin-left: 45%;
+  }
+
+}
+
+@media (min-width: 563px) and (max-width: 643px) {
+  /* Los estilos aquí contenidos solo se aplicarán a partir
+  del tamaño de pantalla indicado */
+  p{
+    margin-left: 43%;
+  }
+
+}
+
+@media (min-width: 643px) and (max-width: 1024px) {
+  /* Los estilos aquí contenidos solo se aplicarán a partir
+  del tamaño de pantalla indicado */
+  p{
+    margin-left: 46%;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  /* Los estilos aquí contenidos solo se aplicarán a partir
+  del tamaño de pantalla indicado */
+  p{
+    margin-left: 48%;
+  }
+
+}
+

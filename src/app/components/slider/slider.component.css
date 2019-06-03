@@ -1,0 +1,23 @@
+.d-block{
+  width: 100%;
+  height: 700px;
+}
+@media (min-width: 250px) and (max-width: 500px) {
+  /* Solo se aplicarán entre los tamaños indicados */
+  .bg-light{
+    width: 100px;
+    height: 50px;
+    background-color: blue !important;
+  }
+  .mr-auto, .mx-auto{
+    margin-right: 20px;
+  }
+  .navbar-nav{
+    padding-left: none;
+  }
+  .d-block{
+    height: 400px;
+  }
+}
+
+
