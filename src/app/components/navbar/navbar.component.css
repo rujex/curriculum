@@ -1,0 +1,19 @@
+.bg-light{
+  background-color: #563D7C !important;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #B0ACC2;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: white;
+}
+.navbar-brand{
+ color: white;
+}
+.navbar-brand:hover{
+  color: white;
+}
+.nav-item.active {
+  font-weight: 600;
+}
+
