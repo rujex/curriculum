@@ -16,6 +16,9 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
 import { CardComponent } from './components/card/card.component';
 import { HabilidadesComponent } from './views/habilidades/habilidades.component';
 import { ProgressComponent } from './components/progress/progress.component';
+import { ContactoComponent } from './views/contacto/contacto.component';
+
+
 
 @NgModule({
   declarations: [
@@ -31,7 +34,8 @@ import { ProgressComponent } from './components/progress/progress.component';
     WelcomeComponent,
     CardComponent,
     HabilidadesComponent,
-    ProgressComponent
+    ProgressComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,

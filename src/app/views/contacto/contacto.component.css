@@ -1,0 +1,41 @@
+.fas{
+  font-size: 60px;
+  margin-left: 50%;
+  color: white;
+  margin-top: 2%;
+}
+.fab{
+  font-size: 80px;
+  margin-left: 43%;
+  color: white;
+  margin-top: 2%;
+}
+.far{
+  font-size: 80px;
+  margin-left: 43%;
+  color: white;
+  margin-top: 2%;
+}
+.column{
+  display: inline;
+}
+.titulo{
+  font-size: 40px;
+  color: white;
+  margin-left: 48%;
+  margin-top: 2%;
+}
+.container{
+  margin-top: 10%;
+  max-width: 500px;
+  margin-left: 42%;
+}
+.col{
+ flex-grow: 0;
+}
+.contact{
+  color: white;
+  font-size: 20px;
+  margin-left: 47%;
+  margin-top: 20%;
+}
