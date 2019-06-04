@@ -1,0 +1,10 @@
+.card{
+  margin-top: -10%;
+  margin-left: 22%;
+}
+.card-img-top{
+  background-color: white;
+}
+.card-body{
+  background-color: rgb(86, 110, 110);
+}

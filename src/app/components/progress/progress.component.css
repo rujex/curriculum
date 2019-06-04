@@ -1,0 +1,14 @@
+.progress{
+  margin-top: 4%;
+  width: 28%;
+  margin-left: 38%;
+  height: 50px;
+  box-shadow: 2px 2px 2px 1px;
+}
+.progress-bar{
+  background-color: sienna;
+}
+p{
+  margin-top: 20px;
+  font-size: 30px;
+}

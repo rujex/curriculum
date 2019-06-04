@@ -2,11 +2,20 @@
   font-size: 80px;
   margin-left: 50%;
   margin-top: 2%;
+  color: white;
 }
-p{
-  margin-left: 40%;
+.titulo{
+  margin-left: 47%;
   margin-top: 1%;
   font-size: 40px;
+  color: white;
+}
+.info{
+  width: 400px;
+  font-size: 15px;
+  margin-left: 800px;
+  text-align: justify;
+  color: white
 }
 
 @media (min-width: 250px) and (max-width: 463px) {
