@@ -1,13 +1,104 @@
-.container{
-  margin-left: 28%;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-img{
-  width: 200px;
-  height: 270px;
+body{
+  background: #82E0AA;
+  padding-top: 100px;
+}
+.p-descr{
+  height: 200px;
+  overflow: auto;
+
+  position: relative;
+}
+.pj-card{
+  max-width: 400px;
+  height: 350px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  background: #FF5733;
+}
+.pj-card a, .pj-card a:hover{
+  color: inherit;
+  text-decoration: none;
+}
+.pj-card h5{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: .8s;
+  -moz-transition: .8s;
+  transition: .8s;
+}
+.pj-card:hover h5{
+  opacity: 1;
+}
+.pj-card img{
+  object-fit: cover;
+  height: 400px;
+  min-width: 400px;
+  width: 100%;
+  -webkit-transition: .8s;
+  -moz-transition: .8s;
+  transition: .8s;
+}
+.pj-card:hover img{
+  filter: brightness(30%);
+  -webkit-filter: brightness(30%);
+}
+.pj-card .description{
+  background: #fff;
+  position: absolute;
+
+  width: 100%;
+  height: 250px;
+  bottom: -200px;
+  -webkit-transition: .8s;
+  -moz-transition: .8s;
+  transition: .8s;
+}
+.pj-card .description h4{
+  line-height: 50px;
+  border-bottom: 2px solid #333;
+}
+.pj-card:hover .description{
+  bottom: 0;
+}
+.centered{
+  position: absolute;
+  padding: 5px;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .container{
-    margin-left: 15%;
+.fab{
+  font-size: 2.5rem;
+  margin: 10px;
+}
+.fa-html5{color: #e34f26;}
+.fa-css3-alt{color: #002561;}
+.fa-js{color: #f7df1e;}
+.fa-php{color: #4f5b93;}
+
+@media screen and (max-width: 480px){
+  .pj-card{max-width: 100%}
+}
+
+@media screen and (max-width: 900px){
+  .centered{
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+  }
+  body{
+    padding-top: 10px;
   }
 }

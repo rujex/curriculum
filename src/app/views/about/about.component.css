@@ -1,22 +1,31 @@
 .fas{
-  font-size: 80px;
+  font-size: 50px;
   margin-left: 50%;
   margin-top: 2%;
-  color: white;
+  color: aliceblue;
 }
 .titulo{
-  margin-left: 47%;
+  margin-left: 48%;
   margin-top: 1%;
-  font-size: 40px;
-  color: white;
+  font-size: 30px;
+  color: aliceblue;
+  font-family: 'Righteous', cursive;
 }
 .info{
+  margin-top: 50px;
   width: 500px;
   font-size: 17px;
   margin-left: 800px;
   text-align: justify;
-  color: lightsteelblue;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: mistyrose;
+  font-family: 'Quicksand', sans-serif;
+  text-indent: 40px;
+  letter-spacing: 3px;
+}
+body{
+  background-image: url(../../../assets/fondo2.jpg);
+  width: 100%;
+  height: 94.3%;
 }
 
 @media (min-width: 250px) and (max-width: 463px) {
@@ -63,7 +72,7 @@
 @media (min-width: 1024px) {
   /* Los estilos aquí contenidos solo se aplicarán a partir
   del tamaño de pantalla indicado */
-  p{
+  .info{
     margin-left: 48%;
   }
 

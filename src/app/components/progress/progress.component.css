@@ -1,8 +1,8 @@
 .progress{
-  margin-top: 4%;
+  margin-top: 3%;
   width: 28%;
   margin-left: 38%;
-  height: 50px;
+  height: 40px;
   box-shadow: 2px 2px 2px 1px;
 }
 .progress-bar{

@@ -1,25 +1,37 @@
 .card{
   margin-top: -26%;
   margin-left: 22%;
+  box-shadow: 5px 5px 5px 5px;
+  -webkit-transition: margin-left 1s; /* For Safari 3.1 to 6.0 */
+  transition: margin-left 1s;
+}
+.card:hover{
+  margin-left: 20%;
 }
 .card-img-top{
   background-color: white;
 }
 .card-body{
-  background-color: rgb(86, 110, 110);
+  background-color: rgb(27, 31, 31);
 }
 .card-text{
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(233, 229, 214);
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 2px;
 }
 .profesion{
-  color: cornsilk;
+  font-size: 14px;
+  color: rgb(233, 229, 214);
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 2px;
 }
 
 @media (min-width: 992px) and (max-width: 1160px) {
 
   .card{
-    margin-top: -37%;
+    margin-top: -45%;
     margin-left: 15%;
   }
 

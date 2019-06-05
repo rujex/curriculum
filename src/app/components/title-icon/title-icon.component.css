@@ -7,6 +7,13 @@
 p{
   margin-top: 1%;
   font-size: 30px;
-  margin-left: 45%;
+  margin-left: 48%;
   color: white;
+  font-family: 'Righteous', cursive;
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  p{
+    margin-left: 47%;
+  }
+ }

@@ -1,1 +1,27 @@
+img{
+  width: 100%;
+  height: 913px;
+}
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: ivory;
+  font-size: 60px;
+  font-family: 'Lobster', cursive;
+  text-decoration: overline;
+  text-shadow: 4px 3px rgb(11, 110, 36);
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  img{
+    width: 100%;
+    height: 913px;
+  }
+}
 
