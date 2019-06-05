@@ -2,13 +2,13 @@
   margin-top: 3%;
   width: 28%;
   margin-left: 38%;
-  height: 40px;
+  height: 35px;
   box-shadow: 2px 2px 2px 1px;
 }
 .progress-bar{
-  background-color: sienna;
+  background-color: rgb(110, 60, 37);
 }
 p{
   margin-top: 20px;
-  font-size: 30px;
+  font-size: 20px;
 }
