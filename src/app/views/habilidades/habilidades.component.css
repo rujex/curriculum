@@ -10,3 +10,9 @@
   margin-left: 47%;
   color: white;
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   .titulo{
+    margin-left: 44%;
+   }
+ }

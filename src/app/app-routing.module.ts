@@ -5,6 +5,7 @@ import { AboutComponent } from './views/about/about.component';
 import { ProyectosComponent } from './views/proyectos/proyectos.component';
 import { HabilidadesComponent } from './views/habilidades/habilidades.component';
 import { ContactoComponent } from './views/contacto/contacto.component';
+import { CurriculumComponent } from './views/curriculum/curriculum.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'proyectos',
     component: ProyectosComponent
+  },
+  {
+    path: 'curriculum',
+    component: CurriculumComponent
   },
   {
     path: 'habilidades',

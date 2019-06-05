@@ -45,7 +45,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1300px) {
+@media (min-width: 900px) and (max-width: 1200px) {
   /* Solo se aplicarán entre los tamaños indicados */
   .carousel-indicators{
     margin-left: 20%;

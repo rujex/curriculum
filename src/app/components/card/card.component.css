@@ -9,10 +9,11 @@
   background-color: rgb(86, 110, 110);
 }
 .card-text{
-  color: white;
+  font-size: 20px;
+  font-weight: 600;
 }
 .profesion{
-  color: white;
+  color: cornsilk;
 }
 
 @media (min-width: 992px) and (max-width: 1160px) {

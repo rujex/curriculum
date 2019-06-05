@@ -39,3 +39,15 @@
   margin-left: 47%;
   margin-top: 20%;
 }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container{
+    margin-top: 30%;
+    margin-left: 37%;
+  }
+  .contact{
+    margin-top: 37%;
+    margin-left: 44%;
+  }
+}

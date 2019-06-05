@@ -4,11 +4,17 @@ ol{
   background-color: #2F4F4F;
 }
 .item{
-  margin-left: 15%;
+  margin-left: 35%;
 }
 a{
   color: gray;
 }
 nav{
   margin-left: 31%;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  ol{
+    margin-left: 15%;
+  }
 }

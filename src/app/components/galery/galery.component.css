@@ -1,7 +1,13 @@
 .container{
-  margin-left: 25%;
+  margin-left: 28%;
 }
 img{
   width: 200px;
   height: 270px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container{
+    margin-left: 15%;
+  }
 }
