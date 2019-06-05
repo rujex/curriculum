@@ -26,6 +26,7 @@
 .carousel-indicators{
   margin-left: 17%;
 }
+
 @media (min-width: 250px) and (max-width: 500px) {
   /* Solo se aplicarán entre los tamaños indicados */
   .bg-light{
@@ -41,6 +42,20 @@
   }
   .d-block{
     height: 400px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1300px) {
+  /* Solo se aplicarán entre los tamaños indicados */
+  .carousel-indicators{
+    margin-left: 20%;
+  }
+  .d-block{
+    width: 500px;
+    height: 300px;
+  }
+  .carousel-control-next-icon{
+    margin-left: 80px;
   }
 }
 
