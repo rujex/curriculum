@@ -8,13 +8,13 @@ import { HomeComponent } from './views/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './views/about/about.component';
 import { ProyectosComponent } from './views/proyectos/proyectos.component';
-import { TitleIconComponent } from './components/title-icon/title-icon.component';
 import { GaleryComponent } from './components/galery/galery.component';
 import { CardComponent } from './components/card/card.component';
 import { HabilidadesComponent } from './views/habilidades/habilidades.component';
 import { ProgressComponent } from './components/progress/progress.component';
 import { ContactoComponent } from './views/contacto/contacto.component';
 import { CurriculumComponent } from './views/curriculum/curriculum.component';
+import { CardscurriculumComponent } from './components/cardscurriculum/cardscurriculum.component';
 
 
 
@@ -25,13 +25,13 @@ import { CurriculumComponent } from './views/curriculum/curriculum.component';
     HomeComponent,
     AboutComponent,
     ProyectosComponent,
-    TitleIconComponent,
     GaleryComponent,
     CardComponent,
     HabilidadesComponent,
     ProgressComponent,
     ContactoComponent,
-    CurriculumComponent
+    CurriculumComponent,
+    CardscurriculumComponent
   ],
   imports: [
     BrowserModule,

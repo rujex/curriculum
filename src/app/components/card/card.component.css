@@ -1,13 +1,9 @@
 .card{
-  margin-top: -26%;
-  margin-left: 22%;
-  box-shadow: 5px 5px 5px 5px;
-  -webkit-transition: margin-left 1s; /* For Safari 3.1 to 6.0 */
-  transition: margin-left 1s;
-}
-.card:hover{
+  margin-top: -24%;
   margin-left: 20%;
+  box-shadow: 5px 5px 5px 5px;
 }
+
 .card-img-top{
   background-color: white;
 }

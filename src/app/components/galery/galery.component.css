@@ -20,6 +20,7 @@ body{
   overflow: hidden;
   position: relative;
   background: #FF5733;
+  margin-right: 40px;
 }
 .pj-card a, .pj-card a:hover{
   color: inherit;
@@ -48,10 +49,48 @@ body{
   -moz-transition: .8s;
   transition: .8s;
 }
-.pj-card:hover img{
-  filter: brightness(30%);
-  -webkit-filter: brightness(30%);
+
+.pj-card .dart{
+  margin-right: 20px;
+  object-fit: cover;
+  height: 30px;
+  min-width: 30px;
+  width: 30px;
+  -webkit-transition: .8s;
+  -moz-transition: .8s;
+  transition: .8s;
 }
+.pj-card .flutter{
+  object-fit: cover;
+  height: 30px;
+  min-width: 30px;
+  width: 30px;
+  -webkit-transition: .8s;
+  -moz-transition: .8s;
+  transition: .8s;
+}
+
+.pj-card .ionic{
+  margin-right: 20px;
+  object-fit: cover;
+  height: 30px;
+  min-width: 30px;
+  width: 30px;
+  -webkit-transition: .8s;
+  -moz-transition: .8s;
+  transition: .8s;
+}
+
+.pj-card .angular{
+  object-fit: cover;
+  height: 30px;
+  min-width: 30px;
+  width: 30px;
+  -webkit-transition: .8s;
+  -moz-transition: .8s;
+  transition: .8s;
+}
+
 .pj-card .description{
   background: #fff;
   position: absolute;
