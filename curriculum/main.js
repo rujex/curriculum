@@ -168,18 +168,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/navbar/navbar.component */ "./src/app/components/navbar/navbar.component.ts");
-/* harmony import */ var _views_home_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./views/home/home.component */ "./src/app/views/home/home.component.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _views_about_about_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./views/about/about.component */ "./src/app/views/about/about.component.ts");
-/* harmony import */ var _views_proyectos_proyectos_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./views/proyectos/proyectos.component */ "./src/app/views/proyectos/proyectos.component.ts");
-/* harmony import */ var _components_galery_galery_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/galery/galery.component */ "./src/app/components/galery/galery.component.ts");
-/* harmony import */ var _components_card_card_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/card/card.component */ "./src/app/components/card/card.component.ts");
-/* harmony import */ var _views_habilidades_habilidades_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./views/habilidades/habilidades.component */ "./src/app/views/habilidades/habilidades.component.ts");
-/* harmony import */ var _components_progress_progress_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/progress/progress.component */ "./src/app/components/progress/progress.component.ts");
+/* harmony import */ var _views_home_home_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./views/home/home.component */ "./src/app/views/home/home.component.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _views_proyectos_proyectos_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./views/proyectos/proyectos.component */ "./src/app/views/proyectos/proyectos.component.ts");
+/* harmony import */ var _components_galery_galery_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/galery/galery.component */ "./src/app/components/galery/galery.component.ts");
+/* harmony import */ var _views_habilidades_habilidades_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./views/habilidades/habilidades.component */ "./src/app/views/habilidades/habilidades.component.ts");
+/* harmony import */ var _components_progress_progress_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/progress/progress.component */ "./src/app/components/progress/progress.component.ts");
+/* harmony import */ var _components_cardscurriculum_cardscurriculum_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/cardscurriculum/cardscurriculum.component */ "./src/app/components/cardscurriculum/cardscurriculum.component.ts");
+/* harmony import */ var _views_about_about_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./views/about/about.component */ "./src/app/views/about/about.component.ts");
+/* harmony import */ var _views_curriculum_curriculum_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./views/curriculum/curriculum.component */ "./src/app/views/curriculum/curriculum.component.ts");
 /* harmony import */ var _views_contacto_contacto_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./views/contacto/contacto.component */ "./src/app/views/contacto/contacto.component.ts");
-/* harmony import */ var _views_curriculum_curriculum_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./views/curriculum/curriculum.component */ "./src/app/views/curriculum/curriculum.component.ts");
-/* harmony import */ var _components_cardscurriculum_cardscurriculum_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/cardscurriculum/cardscurriculum.component */ "./src/app/components/cardscurriculum/cardscurriculum.component.ts");
+/* harmony import */ var _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/navbar/navbar.component */ "./src/app/components/navbar/navbar.component.ts");
+/* harmony import */ var _components_card_card_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/card/card.component */ "./src/app/components/card/card.component.ts");
 
 
 
@@ -204,22 +204,22 @@ var AppModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-                _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"],
-                _views_home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
-                _views_about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"],
-                _views_proyectos_proyectos_component__WEBPACK_IMPORTED_MODULE_9__["ProyectosComponent"],
-                _components_galery_galery_component__WEBPACK_IMPORTED_MODULE_10__["GaleryComponent"],
-                _components_card_card_component__WEBPACK_IMPORTED_MODULE_11__["CardComponent"],
-                _views_habilidades_habilidades_component__WEBPACK_IMPORTED_MODULE_12__["HabilidadesComponent"],
-                _components_progress_progress_component__WEBPACK_IMPORTED_MODULE_13__["ProgressComponent"],
+                _views_home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"],
+                _views_proyectos_proyectos_component__WEBPACK_IMPORTED_MODULE_7__["ProyectosComponent"],
+                _components_galery_galery_component__WEBPACK_IMPORTED_MODULE_8__["GaleryComponent"],
+                _views_habilidades_habilidades_component__WEBPACK_IMPORTED_MODULE_9__["HabilidadesComponent"],
+                _components_progress_progress_component__WEBPACK_IMPORTED_MODULE_10__["ProgressComponent"],
+                _components_cardscurriculum_cardscurriculum_component__WEBPACK_IMPORTED_MODULE_11__["CardscurriculumComponent"],
+                _views_about_about_component__WEBPACK_IMPORTED_MODULE_12__["AboutComponent"],
+                _views_curriculum_curriculum_component__WEBPACK_IMPORTED_MODULE_13__["CurriculumComponent"],
                 _views_contacto_contacto_component__WEBPACK_IMPORTED_MODULE_14__["ContactoComponent"],
-                _views_curriculum_curriculum_component__WEBPACK_IMPORTED_MODULE_15__["CurriculumComponent"],
-                _components_cardscurriculum_cardscurriculum_component__WEBPACK_IMPORTED_MODULE_16__["CardscurriculumComponent"]
+                _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_15__["NavbarComponent"],
+                _components_card_card_component__WEBPACK_IMPORTED_MODULE_16__["CardComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-                _angular_common_http__WEBPACK_IMPORTED_MODULE_7__["HttpClientModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClientModule"],
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -530,7 +530,7 @@ module.exports = ".fas{\r\n  font-size: 50px;\r\n  margin-left: 50%;\r\n  margin
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar></app-navbar>\n<body>\n    <div class=\"jumbotron jumbotron-fluid\">\n      <div class=\"container\">\n        <h1 class=\"display-4\">Sobre mi</h1>\n        <p class=\"lead\">En 2019 terminé el Ciclo Superior de Desarrollo de Aplicaciones Multiplataforma\n          en el IES Francisco De Los Ríos. Soy Técnico Superior en Desarrollo de Aplicaciones Multiplataforma\n          y Técnico en Sistemas MicroInformáticos y Redes.\n          He estado en Atmira durante 3 meses realizando las practicas de Formación en Centros de Trabajo, me sirvió para aprender\n      a desarrollar páginas webs en Angular. También estuve en la Federación Cordobesa de Fútbol de prácticas de Formación en Centro de Trabajo de Grado Medio de Sistemas MicroInformaticos\n      y redes que fue mi primera experiencia en el mundo laboral.\n      Me gusta tanto Desarrollar Apps como Desarrollar páginas webs.\n      En mi tiempo libre también investigo nuevos lenguajes y frameworks. Te invito a que veas mi proyecto de FP Superior que está hecho en Flutter.\n        </p>\n      </div>\n    </div>\n\n\n    <app-card></app-card>\n</body>\n\n"
+module.exports = "<app-navbar></app-navbar>\n    <div class=\"jumbotron jumbotron-fluid\">\n      <div class=\"container\">\n        <h1 class=\"display-4\">Sobre mi</h1>\n        <p class=\"lead\">En 2019 terminé el Ciclo Superior de Desarrollo de Aplicaciones Multiplataforma\n          en el IES Francisco De Los Ríos. Soy Técnico Superior en Desarrollo de Aplicaciones Multiplataforma\n          y Técnico en Sistemas MicroInformáticos y Redes.\n          He estado en Atmira durante 3 meses realizando las practicas de Formación en Centros de Trabajo, me sirvió para aprender\n      a desarrollar páginas webs en Angular. También estuve en la Federación Cordobesa de Fútbol de prácticas de Formación en Centro de Trabajo de Grado Medio de Sistemas MicroInformaticos\n      y redes que fue mi primera experiencia en el mundo laboral.\n      Me gusta tanto Desarrollar Apps como Desarrollar páginas webs.\n      En mi tiempo libre también investigo nuevos lenguajes y frameworks. Te invito a que veas mi proyecto de FP Superior que está hecho en Flutter.\n        </p>\n      </div>\n    </div>\n\n <app-card></app-card>\n\n"
 
 /***/ }),
 
